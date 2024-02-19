@@ -1,0 +1,33 @@
+/* ---- CSS Demo ---- */
+
+/* ----Box Sizing---- */
+html {
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*after {
+    box-sizing: inherit;
+}
+
+/* --- Global Styles --- */
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+header.primary{
+    background:rgb(214, 189, 237);
+
+}
+header.primary{
+
+}
+
+/* Color Theme Swatches in Hex */
+.primary-color { background-color: #283040; }
+.secondary-color { color: #D9CF4A; }
+.smiling-middle-aged-golfer-on-golf-course.-copy-space-3-hex { color: #595622; }
+.smiling-middle-aged-golfer-on-golf-course.-copy-space-4-hex { color: #D9CA82; }
+.smiling-middle-aged-golfer-on-golf-course.-copy-space-5-hex { color: #733A19; }
