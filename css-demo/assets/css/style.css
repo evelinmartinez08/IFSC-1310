@@ -1,31 +1,76 @@
 /* ---- CSS Demo ---- */
 
-/* ----Box Sizing---- */
+/*  ---------------Box Sizing-----------------  */
+
 html {
-box-sizing: border-box;
-}
-
-*,
-*:before,
-*after {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
     box-sizing: inherit;
+  }
+  
+  
+  /*  --------------- Global Styles -----------------  */
+  
+  body{
+  font-family: "Gabarito", sans-serif;
+  }
+  
+  header.primary{
+  background-color: #ee8feb;
+  color:#ffffff;
+  text-align:center;
+  text-shadow:2px 2px #000000;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom:40px;
+  padding-left:40px;
+  }
+  
+  header.primary h1 {
+    font-size: 2.4rem;
+    margin:20px 0 0;
+  }
+  
+  header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+  }
+
+  header.primary h2 {
+    margin:0;
+    font-size: 1.4rem;
+  }
+
+  header.primary nav{
+    max-width:900px;
+    margin: 20 px auto;
+  }
+
+  header.primary ul{
+    padding:10px 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
+header.primary ul li{
+    list-style-type:none;
 }
 
-/* --- Global Styles --- */
-
-body{
-    font-family: "Gabarito", sans-serif;
+header.primary nav a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#000000;
+    background-color:rgba(0,0,0,.4);
+    padding:5px 10px;
+    border-radius:20px;
+    border:1px solid #696969;
+    transition:0.4s;
 }
 
-header.primary{
-    background:rgb(214, 189, 237);
-
+header.primary nav a:hover{
+    background-color:rgba(0,0,0,.8);
 }
-
-
-/* Color Theme Swatches in Hex */
-.primary-color { background-color: #283040; }
-.secondary-color { color: #D9CF4A; }
-.smiling-middle-aged-golfer-on-golf-course.-copy-space-3-hex { color: #595622; }
-.smiling-middle-aged-golfer-on-golf-course.-copy-space-4-hex { color: #D9CA82; }
-.smiling-middle-aged-golfer-on-golf-course.-copy-space-5-hex { color: #733A19; }
