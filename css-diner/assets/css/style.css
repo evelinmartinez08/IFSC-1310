@@ -1,8 +1,8 @@
-header.primary{
-    background-color: #a06d9e;
-    color:#ffffff;
+body{
+    background-color:rgb(233, 167, 92);
+    color:#000000;
     text-align:center;
-    text-shadow:2px 2px #000000;
+    text-shadow:1px 1px #484646;
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom:40px;
