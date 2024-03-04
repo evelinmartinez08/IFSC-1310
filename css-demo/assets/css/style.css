@@ -31,7 +31,7 @@ html {
   }
 
   .img-left{
-    float:right;
+    float:left;
     margin: 10px 0 10px 20px;
     border:1px solid #c0c0c0;
     padding:5px;
@@ -51,10 +51,11 @@ html {
   body{
   font-family: "Gabarito", sans-serif;
   margin: 0;
+  
   }
   
   header.primary{
-  background-color: #8fd3ee;
+  background-color: #ed90d2;
   color:#ffffff;
   text-align:center;
   text-shadow:2px 2px #000000;
@@ -65,6 +66,8 @@ html {
   padding: 40px;
   padding: 20px 40px 20px 40px;
   padding: 20px 40px;
+  background-image:url("../img/Pink.webp");
+  background-repeat: repeat;
   }
   
   header.primary h1 {
@@ -118,12 +121,12 @@ header.primary nav a:hover{
 }
 
 #content h2{
-  color: #3b638b;
+  color: #f3ade0;
   border-bottom:2px dotted #c0c0c0;
 }
 
 #content h3{
-  border-left: 5px solid #3b638b;
+  border-left: 5px solid #fab9f8;
   padding:7.5px;
 }
 
@@ -136,14 +139,22 @@ header.primary nav a:hover{
   padding-bottom: 2rem;
   border-top:1px dotted #c0c0c0;
   padding-top: 2rem;
+  flex-wrap:wrap;
+}
+
+#blog h2 {
+  flex:0 0 100%;
+  margin:0;
+  text-align:center;
 }
 
 #blog .post{
-box-shadow: 0 8px 16px rgba(0,0,0,.6);
-padding: 10px;
-border-radius: 4px;
+box-shadow: 0 8px 16px rgba(239, 194, 232, 0.6);
+padding:10px;
+border-radius:4px;
 font-size:.8rem;
 transition:.5s;
+flex:1;
 }
 
 #blog figure{
@@ -167,16 +178,16 @@ color:#c0c0c0;
   margin:0;
 }
 
-#blog h2 a{
-  color:#3b638b
+#blog a{
+  color:#f566f7
 }
 
 #blog .post:hover{
-  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  box-shadow: 0 4px 8px rgba(246, 188, 239, 0.6);
 }
 
 #practice h2{
-  color:#3b638b;
+  color:#d88bc6;
   border-bottom: 1px solid #c0c0c0;
 }
 
@@ -191,20 +202,66 @@ caption{
   margin:10px;
 }
 th{
-  background-color:#172635;
+  background-color:#ee92ca;
   color:#ffffff;
   padding:7.5px;
 }
 tr:nth-child(even){
   background-color: rgba(0,0,0,0.1);
 }
+tr:hover{
+  background-color: rgba(0,0,0,.4);
+}
+
+td:nth-child(n+2){
+  text-align:right;
+  
+}
 td{
   border:1px solid #c0c0c0;
   padding:5px;
 }
 
+#practice ol{
+list-style-type:lower-decimal;
+}
+
+#practice ul ul{
+  list-style-type:square;
+}
+
+dl dt{
+  font-weight:bold;
+}
+
+dl dd{
+  margin:0;
+}
+
+dd+dt{
+  margin-top:20px;
+}
+
+#practice blockquote{
+  border: 4px double #c0c0c0;
+  padding: 20px 40px;
+  margin: 40px 80px;
+  border-radius: 30px 0;
+  background-color: pink;
+  color:#ffffff;
+  line-height: 1.4;
+  text-shadow: 1px 1px #000000;
+}
+
+#practice blockquote cite{
+  display:block;
+  text-align:right;
+  font-size:.7rem;
+  margin-top:1rem;
+}
+
 aside[role="complementary"]{
-  background-color: rgb(91, 68, 131);
+  background-color: rgb(251, 175, 212);
   color:#ffffff;
   padding:1.25rem;
 }
@@ -232,7 +289,7 @@ aside .widget footer{
 }
 
 #colophon{
-  background-color:rgb(243, 75, 164);
+  background-color:rgb(240, 154, 200);
   text-align:center;
   padding:10px;
   color:#ffffff;
