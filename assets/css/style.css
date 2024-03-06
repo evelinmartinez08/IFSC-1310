@@ -1,3 +1,11 @@
 body{
     background-color: pink;
 }
+
+header.primary{
+    background-color: #ed90d2;
+    color:#ffffff;
+    text-align:center;
+    background-image:url("../img/heart3.webp");
+    background-repeat: repeat;
+}
