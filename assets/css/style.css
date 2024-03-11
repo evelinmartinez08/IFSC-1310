@@ -1,11 +1,21 @@
 body{
-    background-color: pink;
+    background-color: rgb(238, 188, 220);
 }
 
 header.primary{
-    background-color: #ed90d2;
-    color:#ffffff;
-    text-align:center;
-    background-image:url("../img/heart3.webp");
-    background-repeat: repeat;
+background-image: url(../img/heart3.webp);
+background-repeat: repeat;
+text-align: center;
+color: rgb(207, 45, 121);
+text-shadow:2px 2px #ffffff;
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-left: 40px;
 }
+
+header.primary h1 {
+    font-size: 4.5rem;
+    margin:20px 0 0;
+  }
+
