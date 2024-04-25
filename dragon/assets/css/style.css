@@ -1,0 +1,313 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    max-width:960px;
+    width: 800px;
+    margin:40px auto;
+}
+
+body{
+    margin:0;
+    align-content: center;
+}
+
+header.primary{
+    color:#ffffff;
+    text-align:center;
+    text-shadow:2px 2px #000000;
+    background-size: 100%;
+    background-position: center;
+    padding: 40px;
+    background-image:url("../img/dragon-in-space.jpg");
+    }
+    
+    header.primary h1 {
+      font-size: 2.4rem;
+      margin:20px 0 0;
+    }
+    
+    header.primary h1 a{
+      width: 40px;
+      height: 70px;
+    }
+
+    header.primary h2 {
+      margin:0;
+      font-size: 1.4rem;
+    }
+  
+    header.primary nav{
+      max-width:900px;
+      margin: 20px auto;
+    }
+  
+    header.primary ul{
+      padding:10px 0;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+    }
+  
+  header.primary ul li{
+      list-style-type:none;
+  }
+  
+  header.primary nav a{
+      color:#ffffff;
+      text-decoration:none;
+      background-color:#000000;
+      background-color:rgba(0,0,0,.4);
+      padding:5px 10px;
+      border-radius:80px;
+      border:2px solid #a7bde5;
+      transition:0.4s;
+  }
+  
+  header.primary nav a:hover{
+      background-color:rgba(255, 255, 255, 0.8);
+  }
+
+#content {
+line-height:1.5;
+}
+
+
+#content h2 {
+    color: #2a77c4;
+    text-align: center;
+}
+
+h2 {
+    display:block;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#blog .container{
+    width: 80vw;
+    margin: 40px;
+    max-width: 900px;
+}
+
+#blog  {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:2rem;
+    padding-bottom: 2rem;
+    padding-top:2rem;
+    flex-wrap:wrap;
+}
+
+#blog h2 {
+    flex:0 0 100%;
+    margin:0;
+    text-align:center;
+    color:#629cd6
+}
+
+#blog p {
+  text-align: center;
+}
+
+#blog .post{
+    width:25%;
+    box-shadow: 0 8px 16px #a7bde5;
+    padding:10px;
+    border-radius:4px;
+    font-size:.8rem;
+    transition:.5s;
+    flex:1;
+}
+
+#blog figure{
+    margin:0;
+}
+
+#blog figcaption{
+    text-transform:uppercase;
+    font-size:.6rem;
+    text-align:center;
+    color:c0c0c0;
+}
+
+#blog header{
+    padding-top:10px;
+    font-size:.6rem;
+    color: #a7bde5;
+}
+
+#blog header h2{
+    margin:0;
+}
+
+#blog a{
+  text-decoration: none;
+  color: #4f9dea;
+}
+
+#blog p{
+    line-height: 1.5;
+}
+
+#blog li {
+    margin: 15px 0;
+}
+
+#launch img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  section#faq h2{
+    color:#247089;
+  }
+
+  section#faq {
+    padding: 4em;
+  }
+
+  section#faq h3{
+    font-size: 1.2em;
+    color:#043140;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: hsl(209, 60%, 59%);
+  }
+
+
+
+  table{
+    border:1px solid #c0c0c0;
+    width: 100%;
+    margin:20px 0;
+    border-collapse:collapse;
+  }
+  caption{
+    font-weight:bold;
+    margin:10px;
+  }
+  th{
+    background-color:#247089;
+    color:#ffffff;
+    padding:7.5px;
+  }
+  tr:nth-child(even){
+    background-color: rgba(0,0,0,0.1);
+  }
+  tr:hover{
+    background-color: rgba(0,0,0,.4);
+  }
+  
+  td:nth-child(n+2){
+    text-align:right;
+    
+  }
+  td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+  }
+
+aside {
+    background-color: #1c5894;
+    color: #ffffff;
+    padding: 1.25 rem;
+}
+aside .container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 60px;
+
+}
+  
+  #colophon{
+    background-color:rgb(47, 127, 184);
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    font-size:1.1rem;
+  }
+
+  a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgba(255, 255, 255, 0.283);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 253, 253);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+footer {
+    display:block;
+}
+  footer#colophon {
+    background-color: #25282b;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+       /\  / \   
+      |  /    |  
+         _      
+       \_\__/__/ /\  / \    
+        __ ||  |   /    |/| 
+         \ |   \  |    /  / 
+          \|_   \_\__/__/
+           ||/     ||    
+            ||    ||_  
+            ||    ||/  
+             ||  ||   
+             || ||   
+
+*/
